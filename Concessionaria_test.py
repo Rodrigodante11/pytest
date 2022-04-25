@@ -3,7 +3,7 @@
 Importante o nome das funcoes de teste deve comecar com test_ obrigatoriamente"""
 import pytest
 
-from Veiculo import *
+from Concessionaria import *
 from unittest import mock
 
 

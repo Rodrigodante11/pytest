@@ -1,4 +1,4 @@
-from Veiculo import Veiculo, Carro, Concessionaria
+from Concessionaria import Veiculo, Carro, Concessionaria
 
 veiculo = Veiculo("TFGE345", 2010, 10000)
 
