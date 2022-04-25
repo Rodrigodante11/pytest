@@ -17,3 +17,12 @@ class Carro(Veiculo):
     # Override
     def calcula_valor_com_imposto(self):
         return super(Carro, self).calcula_valor_com_imposto() + self.valor * 0.1
+
+
+class Concessionaria:
+
+    def __init__(self, nome, cidade, carro: Carro):
+        self.nome = nome
+        self.cidade = cidade
+        self.carro = Carro(carro.placa, carro.ano, carro.valor, carro.modelo, carro.marca)
+

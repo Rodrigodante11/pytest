@@ -1,9 +1,12 @@
-from Veiculo import Veiculo, Carro
+from Veiculo import Veiculo, Carro, Concessionaria
 
 veiculo = Veiculo("TFGE345", 2010, 10000)
 
 print(veiculo.calcula_valor_com_imposto())
 
-carro = Carro("TFGE345", 2010, 10000, "Gol", "marca")
-print(carro.calcula_valor_com_imposto())
+carroaa = Carro("TFGE345", 2010, 10000, "Gol", "marca")
+print(carroaa.calcula_valor_com_imposto())
+
+concessionaria = Concessionaria("ConceAB", "Santa Rita", carroaa)
+print(concessionaria.carro.placa)
 
