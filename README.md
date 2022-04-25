@@ -17,5 +17,5 @@
 <p> Para executar um arquivo de teste especifo, digite o comando no terminal:  </p>
 
 ```
- pytest test_nomeAruivo.py
+ pytest test_nomeArquivo.py
 ```
