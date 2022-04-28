@@ -1,3 +1,5 @@
+[![Python application](https://github.com/Rodrigodante11/pytest/actions/workflows/python-app.yml/badge.svg)](https://github.com/Rodrigodante11/pytest/actions/workflows/python-app.yml)
+
 ### Pytest
 <p> Para instalar o Pytest Digite no terminal/ v-env:  </p>
 
