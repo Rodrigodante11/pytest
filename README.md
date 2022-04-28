@@ -5,6 +5,12 @@
  pip install pytest 
 ```
 
+<p> Para instalar o Pytest, estando no arquivo requirements.txt Digite no terminal/ v-env:  </p>
+
+```
+ pip install -r requirements.txt 
+```
+
 <p> Para executar um teste ele precisa ter o prefixo test_* no arquivo e na função de teste  </p>
 <p> Para executar um teste ele precisa ter o sufixo *_test no arquivo e na função de teste  </p>
 
